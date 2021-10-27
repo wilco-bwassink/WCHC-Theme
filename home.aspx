@@ -8,9 +8,10 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="heroImg"></div>
+    <header>
     <div id="branding"></div>
     <nav>Nav1 | Nav2 | Nav3 | Nav4 | Nav5 | Nav6</nav>
+    </header>
     <div id="search">Search</div>
     <div id="quickMaps">Bridges, Cemeteries, Historical Markers, Oral Histories, Towns</div>
     <div id="blurb">Lorem Ipsum Delor</div>
