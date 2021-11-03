@@ -1,0 +1,103 @@
+/* This is a compiled file, you should be editing the file in the templates directory */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+
+  overflow: hidden;
+  position: fixed;
+  top:50%;
+  margin-top:-6px;
+  left: 0;
+  z-index: 20000;
+  width: 100%;
+  height: 12px;
+  background: #fff!important;
+  border:none!important;
+}
+
+.pace-inactive {
+  display: none;
+  background-color:transparent;
+}
+
+.pace .pace-progress {
+  background-color: #2299dd;
+  position: fixed;
+  top:50%;
+  margin-top:-6px;
+  right: 100%;
+  width: 100%;
+  height: 12px;
+  overflow: hidden;
+  border:none!important;
+
+  -webkit-border-radius: 0 0 4px 0;
+  -moz-border-radius: 0 0 4px 0;
+  -o-border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0;
+
+  -webkit-box-shadow: inset -1px 0 rgba(255, 255, 255, 0.5), inset 0 -1px  rgba(255, 255, 255, 0.5), inset 0 2px rgba(255, 255, 255, 0.5), inset 0 6px rgba(255, 255, 255, .3)!important;
+  -moz-box-shadow: inset -1px 0  rgba(255, 255, 255, 0.5), inset 0 -1px  rgba(255, 255, 255, 0.5), inset 0 2px rgba(255, 255, 255, 0.5), inset 0 6px rgba(255, 255, 255, .3)!important;
+  -o-box-shadow: inset -1px 0  rgba(255, 255, 255, 0.5), inset 0 -1px  rgba(255, 255, 255, 0.5), inset 0 2px rgba(255, 255, 255, 0.5), inset 0 6px rgba(255, 255, 255, .3)!important;
+  box-shadow: inset -1px 0  rgba(255, 255, 255, 0.5), inset 0 -1px  rgba(255, 255, 255, 0.5), inset 0 2px rgba(255, 255, 255, 0.5), inset 0 6px rgba(255, 255, 255, .3)!important;
+}
+
+.pace .pace-activity {
+  position: fixed;
+  top:50%;
+  margin-top:-6px;
+  left: 0;
+  right: -28px;
+  bottom: 0;
+  background-color:transparent!important;
+  -webkit-background-image: radial-gradient(rgba(255, 255, 255, .65) 0%, rgba(255, 255, 255, .15) 100%)!important;
+  -moz-background-image: radial-gradient(rgba(255, 255, 255, .65) 0%, rgba(255, 255, 255, .15) 100%)!important;
+  -o-background-image: radial-gradient(rgba(255, 255, 255, .65) 0%, rgba(255, 255, 255, .15) 100%)!important;
+  background-image: radial-gradient(rgba(255, 255, 255, .65) 0%, rgba(255, 255, 255, .15) 100%)!important;
+
+  -webkit-background-size: 28px 100%;
+  -moz-background-size: 28px 100%;
+  -o-background-size: 28px 100%;
+  background-size: 28px 100%;
+
+  -webkit-animation: mac-osx-motion 500ms linear infinite;
+  -moz-animation: mac-osx-motion 500ms linear infinite;
+  -ms-animation: mac-osx-motion 500ms linear infinite;
+  -o-animation: mac-osx-motion 500ms linear infinite;
+  animation: mac-osx-motion 500ms linear infinite;
+}
+.pace .pace-progress-inner {
+ box-shadow:none!important;
+}
+.pace .pace-activity {
+ box-shadow:none!important;
+}
+
+
+
+@-webkit-keyframes mac-osx-motion {
+  0% { -webkit-transform: none; transform: none; }
+  100% { -webkit-transform: translate(-28px, 0); transform: translate(-28px, 0); }
+}
+@-moz-keyframes mac-osx-motion {
+  0% { -moz-transform: none; transform: none; }
+  100% { -moz-transform: translate(-28px, 0); transform: translate(-28px, 0); }
+}
+@-o-keyframes mac-osx-motion {
+  0% { -o-transform: none; transform: none; }
+  100% { -o-transform: translate(-28px, 0); transform: translate(-28px, 0); }
+}
+@-ms-keyframes mac-osx-motion {
+  0% { -ms-transform: none; transform: none; }
+  100% { -ms-transform: translate(-28px, 0); transform: translate(-28px, 0); }
+}
+@keyframes mac-osx-motion {
+  0% { transform: none; transform: none; }
+  100% { transform: translate(-28px, 0); transform: translate(-28px, 0); }
+}
+
+
