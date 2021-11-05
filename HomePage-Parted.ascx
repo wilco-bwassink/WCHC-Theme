@@ -106,9 +106,9 @@
             <dnn:SEARCH runat="server" id="dnnSEARCH3" CssClass="searchhome"  ShowSite="False" ShowWeb="False"  submit="GO" />
           </div>-->
 
-          <div class="dnn_layout  ">
+          <!-- <div class="dnn_layout  ">
             <div class="BannerPaneA" id="BannerPaneA" runat="server"></div>
-          </div>
+          </div> -->
           <!-- <div class="BannerBox  ">
             <div class="dnn_layout clearfix">
               <div class="BannerPaneB" id="BannerPaneB" runat="server"></div>
