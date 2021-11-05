@@ -110,12 +110,12 @@
           <div class="dnn_layout  ">
             <div class="BannerPaneA" id="BannerPaneA" runat="server"></div>
           </div>
-          <div class="BannerBox  ">
+          <!-- <div class="BannerBox  ">
             <div class="dnn_layout clearfix">
               <div class="BannerPaneB" id="BannerPaneB" runat="server"></div>
             </div>
-          </div>
-          <div class="Mian_Box">
+          </div> -->
+          <!-- <div class="Mian_Box">
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <section class="row">
@@ -172,9 +172,9 @@
                 </section>
               </div>
             </div>
-          </div>
+          </div> -->
           <section id="dnn_content">
-            <div class="Full_Screen_PaneA" id="Full_Screen_PaneA" runat="server"></div>
+            <!-- <div class="Full_Screen_PaneA" id="Full_Screen_PaneA" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -186,7 +186,7 @@
                 </div>
               </div>
             </div>
-            <div class="Full_Screen_PaneB" id="Full_Screen_PaneB" runat="server"></div>
+            <!-- <div class="Full_Screen_PaneB" id="Full_Screen_PaneB" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -249,7 +249,7 @@
                 </div>
               </div>
             </div>
-            <div class="Full_Screen_PaneC" id="Full_Screen_PaneC" runat="server"></div>
+            <!-- <div class="Full_Screen_PaneC" id="Full_Screen_PaneC" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -292,7 +292,7 @@
                 </div>
               </div>
             </div>
-            <div class="Full_Screen_PaneD" id="Full_Screen_PaneD" runat="server"></div>
+            <!-- <div class="Full_Screen_PaneD" id="Full_Screen_PaneD" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -304,7 +304,7 @@
                 </div>
               </div>
             </div>
-            <div class="Full_Screen_PaneE" id="Full_Screen_PaneE" runat="server"></div>
+            <!-- <div class="Full_Screen_PaneE" id="Full_Screen_PaneE" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -347,7 +347,7 @@
                 </div>
               </div>
             </div>
-            <div class="Full_Screen_PaneF" id="Full_Screen_PaneF" runat="server"></div>
+            <!-- <div class="Full_Screen_PaneF" id="Full_Screen_PaneF" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -410,7 +410,7 @@
                 </div>
               </div>
             </div>
-            <div class="Full_Screen_PaneG" id="Full_Screen_PaneG" runat="server"></div>
+            <!-- <div class="Full_Screen_PaneG" id="Full_Screen_PaneG" runat="server"></div> -->
           </section>
           <div class="dnn_layout">
             <div class="content_mid clearfix">
@@ -423,7 +423,7 @@
               </div>
             </div>
           </div>
-          <div class="Full_Screen_PaneH" id="Full_Screen_PaneH" runat="server"></div>
+          <!-- <div class="Full_Screen_PaneH" id="Full_Screen_PaneH" runat="server"></div> -->
           <div class="ContentBottom">
             <div class="dnn_layout">
               <div class="content_mid clearfix">
