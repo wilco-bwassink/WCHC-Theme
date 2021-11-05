@@ -64,14 +64,14 @@
                   <div class="dnn_layout">
                     <div class="head_mid clearfix">
                       <div class="HeadPane  " id="HeadPane" runat="server"></div>
-                      <div class="Login  ">
+                      <!-- <div class="Login  ">
                         <dnn:USER ID="dnnUser" runat="server" LegacyMode="false" />
                         <span class="sep">|</span>
                         <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
                       </div>
                       <div class="languageBox  ">
                         <dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" />
-                      </div>
+                      </div> -->
                     </div>
                   </div>
                 </div>
@@ -105,7 +105,7 @@
                 <h1>I want to...</h1>
                 <dnn:SEARCH ID="dnnSearchhome" runat="server" ShowSite="false" ShowWeb="false" EnableTheming="true" Submit="Search" CssClass="SearchButton" />
           </div>
-          <div class="BannerPane  " id="BannerPane"><p><img alt="The Historic Courthouse on the Square in Georgetown Lit Up For The Holidays" id="banner" src="/portals/0/Images/BackgroundImages/SunsetBanner.jpg" width="100%" /></p>
+          <div class="BannerPane  " id="BannerPane"><p><img alt="The Historic Courthouse on the Square in Georgetown" id="banner" src="/backgrounds/wilcoCourthouse.jpg" width="100%" /></p>
 </div>
           <div class="dnn_layout  ">
             <div class="BannerPaneA" id="BannerPaneA" runat="server"></div>
