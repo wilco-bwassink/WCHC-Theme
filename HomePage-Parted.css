@@ -2,46 +2,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=ABeeZee);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
- /****The Below is for the loading bar animation which has been removed***/
-/***			@import url( pacestyle/Barber-shop.css );
-			.pace-running-ie .pace_bg{
-			background-image:url(Thumbnails/loader1.gif);
-				background-position:center center;
-		background-repeat:no-repeat;
-	}
-
-	.pace_bg,
-	.pace-running .pace_bg {
-		background-color:#FFFFFF;
-	}
-	.pace .pace-progress:after {
-		color: #04478a;
-	}
-	.pace .pace-progress {
-		background-color:#04478a;
-		border-color:#04478a;
-	}
-	.pace {
-		border-color:#04478a;
-	}
-	.pace .pace-activity {
-		background-color:#04478a;
-		border-color:#04478a;
-	}
-	.pace .pace-activity:after,
-	.pace .pace-activity:before {
-		border-color:#04478a;
-	}
-	.pace .pace-progress:before {
-		background-color:#04478a;
-	}
-	.pace .pace-progress-inner {
-		box-shadow: 0 0 10px #04478a, 0 0 5px #04478a;
-	}
-	.pace .pace-activity {
-		box-shadow: inset 0 0 0 2px #04478a, inset 0 0 0 7px #FFF;
-	}********/
-	/**End Loading Bar**/
 
 #Body,
 .Head,
@@ -701,9 +661,6 @@ h5 {
     background-color: #e9e9e9
 }
 
-
-/*#FFF*/
-
 #dnngo_megamenu .dnngo_boxslide .menu_centerbox .dnngo_masonrymenu>ul>li>a>span,
 #dnngo_megamenu .dnngo_slide_menu li {
     border-bottom: 1px solid #ff8200/*#dbdbdb*/
@@ -751,30 +708,11 @@ h5 {
     .roll_menu.roll_activated .roll-lg {
         display: none!important
     }
-    .twoBy {
-    width: 50%;float: left;
-    }
-    .threeBy {
-    width: 33%;float: left;
-    }
-    .svglimit {
-        max-height: 75px;
-    }
-
 }
 
 @media only screen and (min-width:768px) and (max-width:979px) {
     #dnngo_megamenu>div>ul>li>a>span {
         padding: 0 10px
-    }
-    .twoBy {
-    width: 50%;float: left;
-    }
-    .threeBy {
-    width: 33%;float: left;
-    }
-    .svglimit {
-        max-height: 75px;
     }
 }
 
@@ -842,15 +780,6 @@ h5 {
     }
     .roll_menu.roll_activated .roll-xs {
         display: none!important
-    }
-    .twoBy {
-    width: 100%;float:left;
-    }
-    .threeBy {
-    width: 100%;float: left;
-    }
-    .svglimit {
-        max-height: 75px;
     }
 
 }
@@ -1013,13 +942,6 @@ footer {
     .roll_menu.roll_activated .roll-sm {
         display: none!important
     }
-    .twoBy {
-    width: 50%;float: left;
-    }
-    .threeBy {
-    width: 33%;float: left;
-    }
-
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
@@ -1029,71 +951,13 @@ footer {
         left: 0!important;
         opacity: 1!important
     }
-    .roll_menu.roll_activated .roll-md {
-        display: none!important
-    }
-    .twoBy {
-    width: 50%;float: left;
-    }
-    .threeBy {
-    width: 33%;float: left;
-    }
-    .svglimit {
-        max-height: 75px;
-    }
 }
 
 .dnngo_masonrymenu ul ul ul {
     display: none!important
 }
 
-.frontRoll {
-    width: 96%;
-    background-color: #d6d7d9;
-    /*margin-bottom: 2em;*/
-    border-radius: 5px;
-    min-height: 128px; /*114*/
-    margin-left: auto;
-    margin-right: auto;
-    margin-top:10px;
-}
 
-a:hover .frontRoll,
-a:hover .frontRoll h2 {
-    color: #FFF!important;
-    background-color: #04478a;
-    text-decoration-line: none
-}
-
-.frontRollText h2 {
-    margin-top: -25px
-}
-
-.frontRoll a,
-.frontRoll a:active,
-.frontRoll a:link,
-.frontRoll a:visited {
-    color: #777; /*00478a*/
-}
-
-#frontpagelinks A,
-.Link_list li,
-A:active,
-A:link,
-A:visited {
-    color: #000
-}
-
-,
-#frontpagelinks .Link_list li A:hover {
-    color: #04478a
-}
-
-#frontpagelinks A:hover,
-.Link_list li,
-a:hover {
-    color: #ff8200
-}
 
 .floatclear {
     clear: both
@@ -1137,4 +1001,15 @@ a:hover {
 
 #flag a:hover {
     color: #212121;
+}
+
+#historicElements {
+display: flex;
+align-items: center;
+}
+
+.orangeButtons {
+flex: 1;
+background-color: #ff8200;
+border-radius: 5px;
 }

@@ -102,6 +102,13 @@
               </div>
             </header>
           </div>
+          <div id="historicElements">
+          <div id="bridges" class="orangeButtons">Bridges</div>
+          <div id="cemeteries" class="orangeButtons">Cemeteries</div>
+          <div id="historicalMarkers" class="orangeButtons">Historical Markers</div>
+          <div id="oralHistories" class="orangeButtons">Oral Histories</div>
+          <div id="towns" class="orangeButtons">Towns</div>
+          </div>
           <!--<div class="searchBox3   " id="search3" >
             <dnn:SEARCH runat="server" id="dnnSEARCH3" CssClass="searchhome"  ShowSite="False" ShowWeb="False"  submit="GO" />
           </div>-->
