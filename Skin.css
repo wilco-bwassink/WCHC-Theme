@@ -71,6 +71,7 @@ p {
 
 header {
     background-color: #e9e9e9
+    background-image: url("/Portals/_default/Skins/WCHC%20Theme/backgrounds/wilcoCourthouse.jpg");
 }
 
 a.Button_green2:hover,
@@ -8221,69 +8222,7 @@ a:hover.H7_bnt2 {
     color: #04478a
 }
 
-.highlightButtonsContainer {
-    display: grid; 
-    grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
-    grid-template-rows: 1fr; 
-    gap: 5px 10px; 
-    justify-items: stretch;
-    align-items: center;
-  }
-  
-  .highlightRollOver {
-    background-color: #d6d7d9;
-    border-radius: 5px;
-    min-height: 128px; /*114*/
-  }
-  
-  .highlightRollOver svg {
-      padding-top:10px;
-  }
 
-  a:hover .highlightRollOver {
-      color:#FFFFFF!important;
-      background-color: #04478a;
-      text-decoration-line: none;
-  }
-  
-  a .highlightRollOver {
-      color:#04478a;
-      text-decoration: none;
-  }
-  
-  a:hover .highlightRollOver  {
-      color:#FFFFFF!important;
-      text-decoration-line: none;
-  }
-  
-  .highlightRollOverText {
-      margin-top: -1px;
-  }
-
-  a:hover .highlightRollOverText {
-    color:#fff;
-}
-  
-  .highlightBarButtons {
-     /* width: 50%; */
-     text-align: center;
-  }
-
-.green {
-    fill: #009900
-}
-
-a:hover .green {
-    fill: #fff
-}
-
-.orange {
-    fill: #ff8200
-}
-
-a:hover .orange {
-    fill: #fff
-}
 
 .handle {
     fill: none;
@@ -8299,22 +8238,6 @@ a:hover .handle {
     stroke-width: 30px;
 }
 
-.brown {
-    fill: brown
-}
-
-a:hover .brown {
-    fill: #fff
-}
-
-.blue {
-    fill: #04478a
-}
-
-.white,
-a:hover .blue {
-    fill: #fff
-}
 
 A:active,
 A:visited {
@@ -8325,42 +8248,7 @@ A:visited {
     display: none;
 }
 
-.read-more-state {
-  display: none;
-}
 
-.read-more-target {
-  opacity: 0;
-  max-height: 0;
-  font-size: 0;
-  transition: .25s ease;
-}
-
-.read-more-state:checked ~ .read-more-wrap .read-more-target {
-  opacity: 1;
-  font-size: inherit;
-  max-height: 999em;
-}
-
-.read-more-state ~ .read-more-trigger:before {
-  content: 'Show more';
-}
-
-.read-more-state:checked ~ .read-more-trigger:before {
-  content: 'Show less';
-}
-
-.read-more-trigger {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0 .5em;
-  color: #FFF; /*#666*/
-  font-size: .9em;
-  line-height: 2;
-  border: 1px solid #ddd;
-  border-radius: .25em;
-  background-color: #04478a;
-}
 
 .signDashboard {
     width: 20%;

@@ -96,17 +96,16 @@
                   <dnn:LANGUAGE runat="server" id="dnnLANGUAGE8"  showMenu="False" showLinks="True" />
                 </div>-->
               </div>
+              <div id="searchhome" class="span12">
+                <h1>I want to...</h1>
+                <dnn:SEARCH ID="dnnSearchhome" runat="server" ShowSite="false" ShowWeb="false" EnableTheming="true" Submit="Search" CssClass="SearchButton" />
+              </div>
             </header>
           </div>
           <!--<div class="searchBox3   " id="search3" >
             <dnn:SEARCH runat="server" id="dnnSEARCH3" CssClass="searchhome"  ShowSite="False" ShowWeb="False"  submit="GO" />
           </div>-->
-          <div id="searchhome" class="span12">
-                <h1>I want to...</h1>
-                <dnn:SEARCH ID="dnnSearchhome" runat="server" ShowSite="false" ShowWeb="false" EnableTheming="true" Submit="Search" CssClass="SearchButton" />
-          </div>
-          <div class="BannerPane  " id="BannerPane"><p><img alt="The Historic Courthouse on the Square in Georgetown" id="banner" src="/Portals/_default/skins/WCHC Theme/backgrounds/wilcoCourthouse.jpg" width="100%" /></p>
-</div>
+
           <div class="dnn_layout  ">
             <div class="BannerPaneA" id="BannerPaneA" runat="server"></div>
           </div>
