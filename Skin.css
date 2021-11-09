@@ -74,6 +74,7 @@ header {
     background-image: url("/Portals/_default/Skins/WCHC%20Theme/backgrounds/wilcoCourthouse.jpg");
     background-position: center;
     background-repeat: no-repeat;
+    height:60vh;
 }
 
 a.Button_green2:hover,
@@ -1088,7 +1089,8 @@ a.search:visited {
 }
 
 .LogoMenuBox {
-    padding: 35px 0
+    padding: 35px 0;
+    width:100%
 }
 
 .dnn_menu {
