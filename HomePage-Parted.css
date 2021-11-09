@@ -1006,9 +1006,10 @@ footer {
 #historicElements {
 display: flex;
 align-items: center;
-width:100%;
+width:50%;
 height: 5em;
 gap:1em;
+margin-left:25%;
 }
 
 .orangeButtons {
@@ -1019,6 +1020,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 color:#fff;
+flex-direction: column;
 }
 
 heIcon{
