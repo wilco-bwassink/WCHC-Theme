@@ -675,12 +675,12 @@ h5 {
 #dnngo_megamenu .dnngo_boxslide .menu_centerbox ul li li a span:before,
 #dnngo_megamenu .dnngo_slide_menu li.dir>a:before {
     border-right: 1px solid #777;
-    border-bottom: 1px solid #777
+    border-bottom: 1px solid #777;
 }
 
 #dnngo_megamenu .dnngo_slide_menu li a:hover,
 #dnngo_megamenu .dnngo_slide_menu li.menu_hover>a {
-    background-color: #04478a
+    background-color: transparent;
 }
 
 #dnngo_megamenu .dnngo_boxslide .menu_centerbox .dnngo_masonrymenu>ul>li>a>span,
@@ -812,8 +812,8 @@ h5 {
 } */
 
 #dnngo_megamenu>div>ul>li>a>span {
-    background: #fff;
-    color: #04478a
+    background: transparent;
+    color: #fff;
 }
 
 #dnngo_megamenu .dnngo_boxslide .menu_centerbox>.dnngo_masonrymenu>ul>li>a>span,
@@ -1007,7 +1007,6 @@ footer {
 display: flex;
 align-items: center;
 width:50%;
-height: 5em;
 gap:1em;
 margin-left:25%;
 }
@@ -1019,11 +1018,16 @@ border-radius: 5px;
 display: flex;
 justify-content: center;
 align-items: center;
-color:#fff;
+color: hsla(360, 100%, 100%, 1);
 flex-direction: column;
 }
 
-heIcon{
+.heIcon{
     max-width: 75%;
-    fill:#fff;
+    fill:hsla(360, 100%, 100%, 1);
+}
+
+.heText {
+    font-weight: bold;
+    color: hsla(360, 100%, 100%, 1);
 }

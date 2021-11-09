@@ -1085,7 +1085,8 @@ a.search:visited {
 }
 
 .dnn_logo img {
-    max-height: 100%
+    max-height: 100%;
+    max-width: 250px;
 }
 
 .LogoMenuBox {
@@ -8120,7 +8121,7 @@ a:hover.H7_bnt2 {
 
 #search a.SearchButton:link,
 #search a.SearchButton:visited {
-    display: inline-block;
+    /* display: inline-block; */
     float: right;
     height: 32px;
     width: 32px;
