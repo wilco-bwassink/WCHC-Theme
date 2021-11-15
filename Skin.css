@@ -1,6 +1,13 @@
 @import url(bootstrap.css);
 @import url(animation.css);
 @import url(shortcodes.css);
+
+:root {
+    --wilcoBlue: hsla(210, 94%, 28%, 1);
+    --wilcoWhite: white;
+	--wilcoAccent: hsla(31, 100%, 50%, 1);
+}
+
 h1,
 h2,
 h3,
@@ -69,13 +76,13 @@ p {
     margin: 0 0 8px
 }
 
-header {
+/* header {
     background-color: #e9e9e9;
     background-image: url("/Portals/_default/Skins/WCHC%20Theme/backgrounds/wilcoCourthouse.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height:60vh;
-}
+} */
 
 a.Button_green2:hover,
 a.Button_green:hover {
@@ -1430,7 +1437,7 @@ a.search:visited {
 
 .roll_menu.roll_activated {
     position: fixed;
-     background-color: #04478a; 
+     background-color: var(--wilcoBlue); 
     width: 100%;
     z-index: 1000;
     left: 0;
@@ -8187,7 +8194,7 @@ a:hover.H7_bnt2 {
     min-width: 50px;
     margin: 0;
     padding: 0;
-    background: url(images/search.png) center center no-repeat #04478a;
+    background: url(images/search.png) center center no-repeat var(--wilcoBlue);
     text-indent: -9999px;
     position: relative;
     top: -14px;
@@ -8224,14 +8231,14 @@ a:hover.H7_bnt2 {
 }
 
 #searchhome ul.searchSkinObjectPreview>li>span {
-    color: #04478a
+    color: var(--wilcoBlue)
 }
 
 
 
 .handle {
     fill: none;
-    stroke: #ff8200;
+    stroke: var(--wilcoAccent);
     stroke-miterlimit: 10;
     stroke-width: 30px;
 }

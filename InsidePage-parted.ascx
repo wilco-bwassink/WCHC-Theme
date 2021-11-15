@@ -26,10 +26,10 @@
                         <div class="TopPane" id="TopPane" runat="server"></div>
                       </div>
                     </section>
-                    <section class="row">
+                    <!-- <section class="row">
                       <div class="col-sm-3">
                         <div class="RowOne_Grid3_Pane" id="RowOne_Grid3_Pane" runat="server"></div>
-                      </div>
+                      </div> -->
                       <div class="col-sm-9">
                         <div class="RowOne_Grid9_Pane" id="RowOne_Grid9_Pane" runat="server"></div>
                       </div>
