@@ -13,12 +13,12 @@
           <section id="dnn_content">
             <div class="clearfix">
               <div  class="row LeftPage_Box">
-                <div class="hidden-xs col-sm-3 LeftBox" id="ListBox">
+                <!-- <div class="hidden-xs col-sm-3 LeftBox" id="ListBox">
                   <div id="left_menu">
-                    <dnn:GOMENU runat="server" id="dnnGOMENU6" Effect="HTML" ViewLevel="2"  /> <!-- viewlevel 1 is default -->
-                  </div>
-                  <!-- <div class="LeftOutPane" id="LeftOutPane" runat="server"></div> -->
-                </div>
+                    <dnn:GOMENU runat="server" id="dnnGOMENU6" Effect="HTML" ViewLevel="2"  />--> <!-- viewlevel 1 is default -->
+                  <!--</div>
+                  <div class="LeftOutPane" id="LeftOutPane" runat="server"></div>
+                </div> -->
                 <div class="col-sm-9" id="ContentBox">
                   <div class="pane_layout">
                     <section class="row">
