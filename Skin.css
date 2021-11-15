@@ -1493,10 +1493,10 @@ a.search:visited {
     line-height: 48px
 }
 
-.LeftPage_Box {
+/* .LeftPage_Box {
     background: url(images/mian_line.jpg) 226px top repeat-y
-}
-
+} */
+/* 
 .LeftBox {
     padding-top: 20px;
     padding-bottom: 40px
@@ -1631,7 +1631,7 @@ a.portfolios_default_btn {
 .rightPage_Box #left_menu ul li li a {
     background-position: 0 -65px;
     padding-left: 15px
-}
+} */
 
 .Mian_Box {
     background: url(images/mian_line.jpg) left bottom repeat-x #f7f7f7

@@ -787,7 +787,7 @@ padding:0px  25px;
 
 
 /*left_menu*/
-#left_menu ul li a {
+/* #left_menu ul li a {
 	text-transform:capitalize;
 	font-family:'Open Sans';
  	font-size:13px;
@@ -801,7 +801,7 @@ padding:0px  25px;
 #left_menu ul li li.subcurrent > a,
 #left_menu ul li li.subcurrent > a:before {
 	color:var(--wilcoBlue) !important;
-}
+} */
 
 
 /* ********** breadcrumb ***************/
@@ -855,6 +855,10 @@ padding:0px  25px;
 
 
 /* ********** breadcrumb End ***************/
+
+#ContentBox {
+	width:100%;
+}
 
 /* ********** Footer ************** */
 
