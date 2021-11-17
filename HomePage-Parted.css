@@ -818,10 +818,12 @@ h5 {
 } */
 
 header {
-    background-color: #e9e9e9;
+    /* background-color: #e9e9e9;
     background-image: url("/Portals/_default/Skins/WCHC%20Theme/backgrounds/wilcoCourthouse.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url("/Portals/_default/Skins/WCHC%20Theme/backgrounds/wilcoCourthouse.jpg") center/cover;
     height:60vh;
 }
 
@@ -1028,7 +1030,7 @@ margin-left:25%;
 
 .orangeButtons {
 flex: 1;
-background-color: #ff8200;
+background-color: var(--wilcoAccent);
 border-radius: 5px;
 display: flex;
 justify-content: center;
