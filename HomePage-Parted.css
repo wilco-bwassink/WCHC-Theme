@@ -1070,10 +1070,29 @@ flex-direction: column;
 }
 
 .searchBox3 h1 {
-    color: var(--wilcoWhite)
+    color: var(--wilcoWhite);
+    display: flex;
+    justify-content: center;
 }
 
-.searchInputContainer {
+/* .searchInputContainer {
     padding:10px;
     background-color: hsla(360, 100%, 100%, .4);
+    display: flex;
+    justify-content: center;
+} */
+
+.searchContainer {
+    padding:10px;
+    background-color: hsla(360, 100%, 100%, .4);
+    display: flex;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.searchHome {
+    padding: 5px;
+    border-radius: 2px;
+    background-color: var(--wilcoBlue);
+    color: var(--wilcoWhite);
 }

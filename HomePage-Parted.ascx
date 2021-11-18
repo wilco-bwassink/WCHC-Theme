@@ -68,7 +68,9 @@
                 </div>
           <div class="searchBox3" id="search3" >
           <h1>Preserving Williamson County's History</h1>
-            <dnn:SEARCH runat="server" id="dnnSEARCH3" CssClass="searchhome"  ShowSite="False" ShowWeb="False"  submit="Search" />
+            <div id="searchContainer">
+              <dnn:SEARCH runat="server" id="dnnSEARCH3" CssClass="searchHome"  ShowSite="False" ShowWeb="False"  submit="Search" />
+            </div>
           </div>
               </header>
             </div>
