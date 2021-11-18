@@ -76,7 +76,7 @@
                   </div>
                 </div>
           <div class="searchBox3" id="search3" >
-          <h1>I want to...</h1>
+          <h1>Preserving Williamson County's History</h1><br />>
             <dnn:SEARCH runat="server" id="dnnSEARCH3" CssClass="searchhome"  ShowSite="False" ShowWeb="False"  submit="Search" />
           </div>
               </header>
