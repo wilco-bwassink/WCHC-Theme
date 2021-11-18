@@ -1065,6 +1065,7 @@ flex-direction: column;
 
 .searchBox3 {
     display:flex;
+    flex-direction: column;
     justify-content: center;
 }
 

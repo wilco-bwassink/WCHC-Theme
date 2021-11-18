@@ -63,20 +63,11 @@
                 <div class="header_top  ">
                   <div class="dnn_layout">
                     <div class="head_mid clearfix">
-                      <!--<div class="HeadPane  " id="HeadPane" runat="server"></div>
-                       <div class="Login  ">
-                        <dnn:USER ID="dnnUser" runat="server" LegacyMode="false" />
-                        <span class="sep">|</span>
-                        <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
-                      </div>
-                      <div class="languageBox  ">
-                        <dnn:LANGUAGE runat="server" id="dnnLANGUAGE"  showMenu="False" showLinks="True" />
-                      </div> -->
                     </div>
                   </div>
                 </div>
           <div class="searchBox3" id="search3" >
-          <h1>Preserving Williamson County's History</h1><br />>
+          <h1>Preserving Williamson County's History</h1>
             <dnn:SEARCH runat="server" id="dnnSEARCH3" CssClass="searchhome"  ShowSite="False" ShowWeb="False"  submit="Search" />
           </div>
               </header>
@@ -90,15 +81,6 @@
                 <dnn:LOGO runat="server" id="dnnLOGO3" BorderWidth="0" />
                 <span class="switchOpen glyphicons">  </span> </div>
               <div class="phoneHeadBottom">
-                  <!-- <div class="HeadPane_mobile   " ><h1>Williamson County, Texas</h1></div> -->
-                <!--<div class="Login   ">
-                  <dnn:USER ID="dnnUser3" runat="server" LegacyMode="false" />
-                  <span class="sep">|</span>
-                  <dnn:LOGIN ID="dnnLogin3" CssClass="LoginLink" runat="server" LegacyMode="false" />
-                </div>
-                <div class="languageBox  ">
-                  <dnn:LANGUAGE runat="server" id="dnnLANGUAGE8"  showMenu="False" showLinks="True" />
-                </div>-->
               </div>
               <div id="searchhome" class="span12">
                 <h1>Preserving Williamson County's History</h1>
@@ -158,74 +140,7 @@
 </svg></div><div class="heText">Towns</div></a>
           </div>
 
-          <!-- <div class="dnn_layout  ">
-            <div class="BannerPaneA" id="BannerPaneA" runat="server"></div>
-          </div> -->
-          <!-- <div class="BannerBox  ">
-            <div class="dnn_layout clearfix">
-              <div class="BannerPaneB" id="BannerPaneB" runat="server"></div>
-            </div>
-          </div> -->
-          <!-- <div class="Mian_Box">
-            <div class="dnn_layout">
-              <div class="content_mid clearfix">
-                <section class="row">
-                  <div class="col-sm-12">
-                    <div class="TopOutPane" id="TopOutPane" runat="server"></div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-          <div class="Mian_Box_2">
-            <div class="dnn_layout">
-              <div class="content_mid clearfix">
-                <section class="row">
-                  <div class="col-sm-12">
-                    <div class="TopOutPaneA" id="TopOutPaneA" runat="server"></div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-          <div class="Mian_Box_3">
-            <div class="dnn_layout">
-              <div class="content_mid clearfix">
-                <section class="row">
-                  <div class="col-sm-12">
-                    <div class="TopOutPaneB" id="TopOutPaneB" runat="server"></div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-          <div class="Mian_Box_3">
-            <div class="dnn_layout">
-              <div class="content_mid clearfix">
-                <section class="row">
-                  <div class="col-sm-12">
-                    <div class="TopOutPaneC" id="TopOutPaneC" runat="server"></div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div>
-          <div class="Mian_Box_4">
-            <div class="TopOutPaneD" id="TopOutPaneD" runat="server"></div>
-          </div>
-          <div class="Mian_Box_3">
-            <div class="dnn_layout">
-              <div class="content_mid clearfix">
-                <section class="row">
-                  <div class="col-sm-12">
-                    <div class="TopOutPaneE" id="TopOutPaneE" runat="server"></div>
-                  </div>
-                </section>
-              </div>
-            </div>
-          </div> -->
           <section id="dnn_content">
-            <!-- <div class="Full_Screen_PaneA" id="Full_Screen_PaneA" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -237,7 +152,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="Full_Screen_PaneB" id="Full_Screen_PaneB" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -300,7 +214,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="Full_Screen_PaneC" id="Full_Screen_PaneC" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -343,7 +256,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="Full_Screen_PaneD" id="Full_Screen_PaneD" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -355,7 +267,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="Full_Screen_PaneE" id="Full_Screen_PaneE" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -398,7 +309,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="Full_Screen_PaneF" id="Full_Screen_PaneF" runat="server"></div> -->
             <div class="dnn_layout">
               <div class="content_mid clearfix">
                 <div class="pane_layout">
@@ -461,7 +371,6 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="Full_Screen_PaneG" id="Full_Screen_PaneG" runat="server"></div> -->
           </section>
           <div class="dnn_layout">
             <div class="content_mid clearfix">
@@ -474,7 +383,6 @@
               </div>
             </div>
           </div>
-          <!-- <div class="Full_Screen_PaneH" id="Full_Screen_PaneH" runat="server"></div> -->
           <div class="ContentBottom">
             <div class="dnn_layout">
               <div class="content_mid clearfix">
