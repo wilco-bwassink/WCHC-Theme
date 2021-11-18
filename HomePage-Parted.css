@@ -40,7 +40,8 @@ A:active,
 A:hover,
 A:link,
 A:visited {
-    color: var(--wilcoBlue);
+    color: var(--wilcoWhite);
+    font-weight: bold;
 }
 
 button,
@@ -828,7 +829,8 @@ header {
     background-repeat: no-repeat; */
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
   url("/Portals/_default/Skins/WCHC%20Theme/backgrounds/wilcoCourthouse.jpg") center/cover;
-    height:60vh;
+    height:50vh;
+    max-height:50vh;
 }
 
 #dnngo_megamenu>div>ul>li>a>span {
@@ -1073,26 +1075,31 @@ flex-direction: column;
     color: var(--wilcoWhite);
     display: flex;
     justify-content: center;
+    margin-bottom: 1.5em;
 }
 
-/* .searchInputContainer {
-    padding:10px;
-    background-color: hsla(360, 100%, 100%, .4);
-    display: flex;
-    justify-content: center;
-} */
+.searchInputContainer {
+    width:50vw;
+}
 
-.searchContainer {
+#searchContainer {
     padding:10px;
     background-color: hsla(360, 100%, 100%, .4);
     display: flex;
     justify-content: center;
-    border-radius: 2px;
+    border-radius: 5px;
+    width:60vw;
+    margin-left:20vw;
 }
 
 .searchHome {
-    padding: 5px;
-    border-radius: 2px;
+    padding: 12px;
+    border-radius: 5px;
     background-color: var(--wilcoBlue);
-    color: var(--wilcoWhite);
+    margin-left:1em;
+    transform: ease 0.3;
+}
+
+.searchHome a:hover{
+    background-color: var(--wilcoAccent);
 }
