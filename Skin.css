@@ -1716,8 +1716,8 @@ a.portfolios_default_btn {
 
 .FooterPane,
 .copyright_style {
-    float: left;
-    padding: 10px 8px 0
+    /* float: left; */
+    padding-bottom:1em;
 }
 
 .copyright_style .sep {

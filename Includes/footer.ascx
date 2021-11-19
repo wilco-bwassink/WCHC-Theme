@@ -29,7 +29,7 @@
               </div>
               <div class="Footer_Bottombg  ">
                 <div class="dnn_layout">
-                  <div class="footer_mid clearfix">
+                  <div class="footer_mid">
                     <div class="copyright_style">
                       <dnn:COPYRIGHT runat="server" id="dnnCOPYRIGHT" CssClass="footer   " />
                       <span class="sep  ">|</span>
@@ -38,7 +38,7 @@
                       <dnn:TERMS runat="server" id="dnnTERMS" CssClass="terms  " />
                       <dnn:STYLES runat="server" id="dnnSTYLES" Name="IE6Minus" StyleSheet="ie.css" Condition="LT IE 9" UseSkinPath="True" />
                     </div>
-                    <div class="FooterPane  " id="FooterPane" runat="server"></div>
+                    <div><p>The Williamson County Historical Commission (WCHC) provides this information "as is" without warranty of any kind. This data could include inaccuracies or typographical errors. The WCHC is not responsible for any errors or omissions. Accuracy is limited to the validity of available data. Presence of links should not be construed as an endorsement of the represented sites by the WCHC.</p></div>
                     <div id="to_top" class=" "><span> </span></div>
                   </div>
                 </div>

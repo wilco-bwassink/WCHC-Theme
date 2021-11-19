@@ -52,7 +52,7 @@
                 </div>
               </div>
             </div>
-            <div class="header_top  ">
+            <!-- <div class="header_top  ">
               <div class="dnn_layout">
                 <div class="head_mid clearfix">
                   <div class="HeadPane  " id="HeadPane" runat="server"></div>
@@ -66,7 +66,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </header>
         </div>
         <!-- header2 End -->

@@ -8,7 +8,7 @@
     --wilcoWhite: white;
 	--wilcoAccent: hsla(31, 100%, 50%, 1);
     --black: hsla(360, 0%, 0%, 1);
-
+    --hoverColor: hsla(210, 94%, 18%, 1);
     --fontSize: 13px;
     --fontFamily: 'Open Sans';
 }
@@ -40,7 +40,7 @@ A:active,
 A:hover,
 A:link,
 A:visited {
-    color: var(--wilcoWhite);
+    color: var(--wilcoBlue);
     font-weight: bold;
 }
 
@@ -880,11 +880,11 @@ header {
 
 footer {
     background-color: #d6d7d9;
-    background-image: url(backgrounds/WilcoLogoBrokenOutC.png); /*greychsm2.jpg*/
-    background-position: center bottom;
+    /* background-image: url(backgrounds/WilcoLogoBrokenOutC.png); /*greychsm2.jpg*/
+    /*background-position: center bottom;
     background-repeat: no-repeat;
     height: 300px;
-    background-size: 20%;
+    background-size: 20%; */
 }
 
 .Footer_Contentbg {
@@ -1031,7 +1031,12 @@ align-items: center;
 width:50%;
 gap:1em;
 margin-left:25%;
+margin-top:-5rem;
+}
 
+#historicElements a:hover {
+    background-color: var(--wilcoBlue);
+    text-decoration: none;
 }
 
 .orangeButtons {
@@ -1043,11 +1048,7 @@ justify-content: center;
 align-items: center;
 color: var(--wilcoWhite);
 flex-direction: column;
-}
-
-.orangeButtons a:hover {
-    background-color: var(--wilcoBlue);
-    text-decoration: none;
+box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.30000);
 }
 
 .heIcon{
@@ -1103,8 +1104,23 @@ flex-direction: column;
     background-color: var(--wilcoBlue);
     margin-left:1em;
     transform: ease 0.3;
+    color: var(--wilcoWhite)!important;
 }
 
-.searchHome a:hover{
-    background-color: var(--wilcoAccent);
+.searchHome:hover{
+    background-color: var(--hoverColor);
+    text-decoration: none;
+}
+
+
+.linkedButton {
+    background-color: var(--wilcoBlue);
+    padding:10px;
+    border-radius: 5px;
+    color: var(--wilcoWhite);
+    transition: 0.3;
+}
+
+.linkedButton:hover {
+    background-color: var(--hoverColor);
 }
