@@ -1045,25 +1045,30 @@ color: var(--wilcoWhite);
 flex-direction: column;
 }
 
+.orangeButtons a:hover {
+    background-color: var(--wilcoBlue);
+    text-decoration: none;
+}
+
 .heIcon{
     max-width: 75%;
     fill:var(--wilcoWhite);
 }
 
-.heIcon:hover{
+/* .heIcon:hover{
     max-width: 75%;
-    fill:var(--black);
-}
+    background-color:var(--wilcoBlue);
+} */
 
 .heText {
     font-weight: bold;
     color: var(--wilcoWhite);
 }
 
-.heText:hover {
+/* .heText:hover {
     font-weight: bold;
     color: var(--black);
-}
+} */
 
 .searchBox3 {
     display:flex;
@@ -1084,7 +1089,7 @@ flex-direction: column;
 
 #searchContainer {
     padding:10px;
-    background-color: hsla(360, 100%, 100%, .4);
+    background-color: hsla(360, 100%, 100%, .3);
     display: flex;
     justify-content: center;
     border-radius: 5px;
