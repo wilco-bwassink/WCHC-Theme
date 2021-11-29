@@ -84,7 +84,7 @@
             </header>
           </div>
           <div id="historicElements">
-          <a href="/bridges" id="bridges" class="orangeButtons"><div class="heIcon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <a href="/bridges" id="bridges" class="orangeButtons"><div class="heIcon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve" width="100%" height="100%">
 		<path d="M495.302,108.533c-9.22,0-16.695,7.475-16.695,16.695v8.607c-21.429-14.398-45.853-26.576-72.347-36.221V75.348
 			c0-9.22-7.475-16.695-16.695-16.695c-9.22,0-16.695,7.475-16.695,16.695v11.742c-31.701-8.516-65.544-13.623-100.172-14.872
 			V55.209c0-9.22-7.475-16.695-16.695-16.695c-9.22,0-16.695,7.475-16.695,16.695v17.009c-34.628,1.249-68.471,6.357-100.172,14.872
@@ -122,15 +122,18 @@
   <rect width="14" height="14" x="0" y="0" id="canvas" style="fill:none;stroke:none;visibility:hidden"></rect>
   <path d="M 5,1 C 4,1 3,2 3,3 l 0,8 8,0 0,-8 C 11,2 10,1 9,1 z M 6,3 8,3 8,4 6,4 z M 4,5 10,5 10,6 4,6 z M 5,7 9,7 9,8 5,8 z m -3,5 -1,1 0,1 12,0 0,-1 -1,-1 z" id="cemetery"></path>
 </svg></div><div class="heText">Cemeteries</div></a>
-          <a href="/historicalmarkers"  id="historicalMarkers" class="orangeButtons"><div class="heIcon"><svg viewBox="0 0 15 15" version="1.1" id="town-hall" xmlns="http://www.w3.org/2000/svg">
+          <a href="/historicalmarkers"  id="historicalMarkers" class="orangeButtons"><div class="heIcon"><svg viewBox="0 0 15 15" version="1.1" id="town-hall" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
   <path d="M13,4H9l0-3L7.5,0L6,1v3H2L1,5v1h13V5L13,4z M7.5,1.5c0.4,0,0.7,0.3,0.7,0.8S7.9,3,7.5,3S6.7,2.7,6.7,2.2
 	C6.7,1.8,7.1,1.5,7.5,1.5z M13,7H2v4l-1,1.5V14h13v-1.5L13,11V7z M5,12.5H4V8h1V12.5z M8,12.5H7V8h1V12.5z M11,12.5h-1V8h1V12.5z"></path>
   </svg></div><div class="heText">Historical Markers</div></a>
-          <a href="/oralhistoris"  id="oralHistories" class="orangeButtons"><div class="heIcon"><svg viewBox="0 0 15 15" version="1.1" id="town-hall" xmlns="http://www.w3.org/2000/svg">
-  <path d="M13,4H9l0-3L7.5,0L6,1v3H2L1,5v1h13V5L13,4z M7.5,1.5c0.4,0,0.7,0.3,0.7,0.8S7.9,3,7.5,3S6.7,2.7,6.7,2.2
-	C6.7,1.8,7.1,1.5,7.5,1.5z M13,7H2v4l-1,1.5V14h13v-1.5L13,11V7z M5,12.5H4V8h1V12.5z M8,12.5H7V8h1V12.5z M11,12.5h-1V8h1V12.5z"></path>
+          <a href="/oral-histories"  id="oralHistories" class="orangeButtons"><div class="heIcon"><svg viewBox="0 0 487.7 487.7" version="1.1" id="convo-bubble" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <path d="M437.1,10.796H50.5c-27.9,0-50.5,22.6-50.5,50.5v276.3c0,27.9,22.6,50.5,50.5,50.5h11.2v81.4c0,6.6,8,9.9,12.6,5.2
+		l86.6-86.6h276.3c27.9,0,50.5-22.6,50.5-50.5v-276.2C487.7,33.496,465,10.796,437.1,10.796z M156.2,225.796
+		c-14.5,0-26.3-11.8-26.3-26.3s11.8-26.3,26.3-26.3s26.3,11.8,26.3,26.3S170.7,225.796,156.2,225.796z M243.8,225.796
+		c-14.5,0-26.3-11.8-26.3-26.3s11.8-26.3,26.3-26.3c14.5,0,26.3,11.8,26.3,26.3S258.3,225.796,243.8,225.796z M331.4,225.796
+		c-14.5,0-26.3-11.8-26.3-26.3s11.8-26.3,26.3-26.3s26.3,11.8,26.3,26.3S345.9,225.796,331.4,225.796z"/>
   </svg></div><div class="heText">Oral Histories</div></a>
-          <a href="/towns"  id="towns" class="orangeButtons"><div class="heIcon"><svg viewBox="0 0 15 15" id="town" xmlns="http://www.w3.org/2000/svg">
+          <a href="/towns"  id="towns" class="orangeButtons"><div class="heIcon"><svg viewBox="0 0 15 15" id="town" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
   <path d="M10.651,7.121a.251.251,0,0,0-.314,0L8.092,8.929A.247.247,0,0,0,8,9.122v4.625A.253.253,0,0,0,8.253,14H9.747A.253.253,0,0,0,10,13.747h0V12h1v1.747a.253.253,0,0,0,.253.253h1.494A.253.253,0,0,0,13,13.747h0V9.12a.25.25,0,0,0-.094-.2ZM10,11H9V10h1Zm2,0H11V10h1ZM5.71,1.815a.252.252,0,0,0-.42,0L2.042,5.936A.252.252,0,0,0,2,6.076v7.671A.252.252,0,0,0,2.251,14h2.5A.252.252,0,0,0,5,13.748V12H6v1.748A.252.252,0,0,0,6.252,14H7V8a.5.5,0,0,1,.188-.391L9,6C9,5.95,5.71,1.815,5.71,1.815ZM4,10H3V9H4ZM4,7H3V6H4Zm2,3H5V9H6ZM6,7H5V6H6Z"></path>
 </svg></div><div class="heText">Towns</div></a>
           </div>
