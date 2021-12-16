@@ -711,7 +711,9 @@ padding:0px  25px;
  .dnn_logo {
 	 line-height:normal;
 	 padding:30px 0px 10px;
-	}.Login {padding-top:5px;}
+	}
+	
+.Login {padding-top:5px;}
 
 .languageBox  .language-object .Language {
 	height:30px;
@@ -747,6 +749,11 @@ padding:0px  25px;
 	background-color:var(--wilcoBlue);
 	border:1px solid var(--wilcoBlue);
 }
+
+.multi_menu > ul > li.current a{
+	color:var(--wilcoWhite);
+}
+
 .multi_menu ul li li.current > a > span{
 	color:var(--wilcoBlue)!important  ;
 }
@@ -764,6 +771,10 @@ padding:0px  25px;
 .twoBy {
     width: 100%;float: left;
     }
+
+.phoneHeadBottom {
+	display:none;
+}
 }
 
 .header_top{
