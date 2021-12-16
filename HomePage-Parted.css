@@ -770,8 +770,13 @@ h5 {
     }
     .multi_menu>ul>li.current {
         background-color: var(--wilcoBlue);
-        border: 1px solid var(--wilcoBlue);
+        border: 2px solid var(--wilcoBlue);
     }
+
+    .multi_menu>ul>li.current a {
+        color: var(--wilcoWhite);
+    }
+
     .multi_menu ul li li.current>a>span {
         color: var(--wilcoBlue)!important;
     }
