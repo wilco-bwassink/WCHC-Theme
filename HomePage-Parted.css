@@ -792,7 +792,11 @@ h5 {
     .roll_menu.roll_activated .roll-xs {
         display: none!important
     }
-
+    #historicElements {
+        width: 100%;
+        margin-left: 0;
+        align-items: stretch;
+    }
 }
 
 #dnngo_megamenu .dnngo_menuslide .dnngo_boxslide a:hover,
