@@ -808,7 +808,7 @@ h5 {
 .Login a:hover,
 .Login a:link,
 .Login a:visited,
-.switchOpen {
+ {
     color: var(--wilcoBlue);
 }
 

@@ -4549,7 +4549,7 @@ screen and (max-height:300px) {
         right: 25px;
         top: 50%;
         margin-top: -14px;
-        color: #444
+        color: var(--wilcoWhite);
     }
     .switchOpen:before {
         content: "\E115"
