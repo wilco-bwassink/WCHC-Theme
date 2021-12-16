@@ -4530,7 +4530,7 @@ screen and (max-height:300px) {
         transition: z-index 0 linear .4s
     }
     .phoneHeadTop {
-        border-bottom: 1px solid #eaeaea;
+        /* border-bottom: 1px solid #eaeaea; */
         padding: 25px 60px 25px 15px;
         position: relative
     }
@@ -4833,6 +4833,7 @@ screen and (max-height:300px) {
     .SkinPlugin_icon {
         display: none!important
     }
+
 }
 
 @media only screen and (max-width:560px) {
