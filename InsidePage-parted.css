@@ -694,6 +694,10 @@ position:relative;
 	border-bottom:1px solid var(--wilcoBlue);
 }
 
+#dnn_dnnLOGO3_imgLogo {
+	content: url(https://www.wilco.org/Portals/5/Images/WCHS-Logo_Color-ForWeb.png) / "Williamson County Historic Commission Logo, click to go to the home page.";
+}
+
 @media only screen and (min-width: 1200px) {
 	#dnngo_megamenu > div > ul > li > a > span {
 padding:0px  25px;
