@@ -8275,3 +8275,10 @@ A:visited {
     margin: 2%;
     text-align: center;
     }
+
+    @media only screen and (max-width:1300px) {
+        #historicElements {
+            width: 75%;
+            margin-left: 12.5;
+            align-items: stretch;
+        }
