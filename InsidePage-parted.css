@@ -1155,3 +1155,17 @@ display:none!important;
   /**height: 20vh;**/
   margin: var(--margin);
 }
+
+/* Changes to the easyDnnNews themes */
+.edn_metaDetails {
+	display:none;
+}
+
+.edn_mediaContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.edn_mediaContainer a {
+	display: none;
+}
