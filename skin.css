@@ -819,6 +819,12 @@ a.cta-button:hover, button.cta-button:hover {
     .searchInputContainer {
         width:50vw;
     }
+
+    .searchInputContainer input {
+        font-family: 'Open Sans';
+        width: 100%;
+        height: 50px;
+    }
     
     #searchContainer {
         padding:10px;
