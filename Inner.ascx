@@ -28,7 +28,7 @@
                 <div id="navbar-top-wrapper">
                     <div id="logo">
                         <span class="brand">
-                            <dnn:LOGO runat="server" ID="dnnLOGO" />
+                            <dnn:LOGO runat="server" ID="dnnLOGO" class="internalPageLogo" />
                         </span>
                     </div>
                 </div>

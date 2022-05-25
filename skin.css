@@ -754,6 +754,10 @@ a.cta-button:hover, button.cta-button:hover {
     padding-left: 15px
 }
 
+.internalPageLogo{
+    content:url(http://history.wilco.org/Portals/0/Images/WCHS-Logo_Color-ForWeb.png);
+}
+
 .navbar .brand {
     float: left;
     padding: 0!important;
