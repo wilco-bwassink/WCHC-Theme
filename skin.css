@@ -1,4 +1,9 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Merriweather);
+﻿@charset "UTF-8";
+em, small {
+    letter-spacing: 0
+}
+
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=ABeeZee);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
@@ -11,11 +16,6 @@
     --hoverColor: hsla(210, 94%, 18%, 1);
     --fontSize: 13px;
     --fontFamily: 'Open Sans';
-}
-
-@charset "UTF-8";
-em, small {
-    letter-spacing: 0
 }
 
 body, li, p {
@@ -734,7 +734,7 @@ a.cta-button:hover, button.cta-button:hover {
     padding: 0
 }
 
- header {
+ header .home {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
   url("/Portals/_default/Skins/WCHC-Theme/Images/wilcoCourthouse.jpg") center/cover;
     height:50vh;
@@ -858,7 +858,6 @@ a.cta-button:hover, button.cta-button:hover {
         display: flex;
         justify-content: center;
         margin-bottom: 1.5em;
-        font-weight: ;
     }
     
     .searchInputContainer {
@@ -943,7 +942,7 @@ a.cta-button:hover, button.cta-button:hover {
 
 .heading_wrapper h3 {
     color: var(--wilcoBlue);
-    font-size: 18px;
+    font-size: 1.5em;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 

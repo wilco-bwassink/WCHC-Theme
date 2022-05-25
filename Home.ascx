@@ -23,10 +23,8 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<div id="siteWrapper">
-
     <!--Header -->
-    <header role="banner">
+    <header class="home"role="banner">
         <div id="mainHeader-inner">
             <div class="clearfix"></div>
             <div class="navbar navbar-default" role="navigation">
@@ -175,9 +173,6 @@
             </div>
         </div>
     </footer>
-
-</div>
-<!-- /.SiteWrapper -->
 
 <%-- CSS & JS includes --%>
 <!--#include file="Common/AddFiles.ascx"-->

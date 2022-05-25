@@ -21,38 +21,6 @@
 <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 <![endif]-->
-
-<div id="siteWrapper">
-
-    <!-- UserControlPanel  -->
-    <div id="topHeader">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="search-top" class="pull-right small-screens hidden-sm hidden-md hidden-lg">
-                        <dnn:SEARCH ID="dnnSearch2" runat="server" ShowSite="false" ShowWeb="false" EnableTheming="true" Submit="Search" CssClass="SearchButton" />
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="language">
-                        <dnn:LANGUAGE runat="server" ID="LANGUAGE1" ShowMenu="False" ShowLinks="True" />
-                    </div>
-                    <div class="search hidden-xs">
-                        <dnn:SEARCH ID="dnnSearch" runat="server" ShowSite="false" ShowWeb="false" EnableTheming="true" Submit="Search" CssClass="SearchButton" />
-                    </div>
-                    <%-- search action for Search function on small devices --%>
-                    <a id="search-action" aria-label="Search"></a>
-                    <div id="login" class="pull-right">
-                        <dnn:LOGIN ID="dnnLogin" CssClass="LoginLink" runat="server" LegacyMode="false" />
-                        <dnn:USER ID="dnnUser" runat="server" LegacyMode="false" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!--Header -->
     <header role="banner">
         <div id="mainHeader-inner" class="container">
@@ -139,20 +107,15 @@
                         <div class="copyright">
                             <dnn:COPYRIGHT ID="dnnCopyright" runat="server" CssClass="" />
                         </div>
-                        <div class="terms-priv">
-                            <dnn:LINKTOMOBILE ID="dnnLinkToMobile" runat="server" />
-                            <dnn:TERMS ID="dnnTerms" runat="server" />
-                            |
-					        <dnn:PRIVACY ID="dnnPrivacy" runat="server" />
-                        </div>
+<hr>
+                    <div class="disclaimer">
+                        <p>The Williamson County Historical Commission (WCHC) provides this information "as is" without warranty of any kind. This data could include inaccuracies or typographical errors. The WCHC is not responsible for any errors or omissions. Accuracy is limited to the validity of available data. Presence of links should not be construed as an endorsement of the represented sites by the WCHC.</p>
+                    </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
-</div>
-<!-- /.SiteWrapper -->
 
 <%-- CSS & JS includes --%>
 <!--#include file="Common/AddFiles.ascx"-->
