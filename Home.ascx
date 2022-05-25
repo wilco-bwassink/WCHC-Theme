@@ -116,9 +116,6 @@
     <!-- Page Content -->
     <div class="container">
         <main role="main">
-            <div class="row dnnpane">
-                <div id="HeaderPane" class="col-md-12 headerPane" runat="server"></div> 
-            </div>   
             <div id="mainContent-inner">
                 <div class="row dnnpane">
                     <div id="ContentPane" class="col-md-12 contentPane" runat="server"></div>
@@ -169,12 +166,10 @@
                         <div class="copyright">
                             <dnn:COPYRIGHT ID="dnnCopyright" runat="server" CssClass="" />
                         </div>
-                        <div class="terms-priv">
-                            <dnn:LINKTOMOBILE ID="dnnLinkToMobile" runat="server" />
-                            <dnn:TERMS ID="dnnTerms" runat="server" />
-                            |
-					        <dnn:PRIVACY ID="dnnPrivacy" runat="server" />
-                        </div>
+<hr>
+                    <div>
+                        <p>The Williamson County Historical Commission (WCHC) provides this information "as is" without warranty of any kind. This data could include inaccuracies or typographical errors. The WCHC is not responsible for any errors or omissions. Accuracy is limited to the validity of available data. Presence of links should not be construed as an endorsement of the represented sites by the WCHC.</p>
+                    </div>
                     </div>
                 </div>
             </div>

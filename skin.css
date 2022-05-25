@@ -148,7 +148,9 @@ small {
 }
 
 a:active, a:link, a:visited {
-    text-decoration: none
+    text-decoration: none;
+    color:var(--wilcoBlue);
+    font-weight: bold;
 }
 
 a:hover {
@@ -1341,11 +1343,11 @@ figure.hover-effect:hover p {
     color: #e3e3e3
 } */
 
-footer .footer-above {
+/* footer .footer-above {
     background-color: #292929;
     padding-top: 25px;
     border-top: 25px solid #7ca0c0
-}
+} */
 
 footer .footer-above h2, footer .footer-above p {
     color: #fff
@@ -1361,7 +1363,7 @@ footer .footer-col {
 }
 
 footer .footer-below {
-    background-color: #383838;
+    background-color: hsla(220, 4%, 85%, 1);
     padding: 15px 0
 }
 
