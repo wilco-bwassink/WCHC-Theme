@@ -1377,9 +1377,10 @@ footer .terms-priv {
 
 footer .copyright, footer .terms-priv {
     padding-left: 15px;
-    padding-right: 15px
+    padding-right: 15px;
+    color:var(--wilcoBlue)
 }
-
+/* 
 footer .links-list ul li {
     float: left;
     width: 100%;
@@ -1498,7 +1499,7 @@ footer .links-list ul li a:before {
 
 .contactus a:active, .contactus a:hover {
     text-decoration: underline
-}
+} */
 
 .btn-social {
     background: url(/Portals/0/Images/social-sprite.png);
@@ -1531,7 +1532,7 @@ footer .links-list ul li a:before {
     padding-left: 0;
     padding-right: 0
 }
-
+/* 
 .DNNContainer_Title_h2 h2 .TitleH2, .DNNContainer_Title_h3 h3 .TitleH3, .DNNContainer_Title_h4 h4 .TitleH4 {
     display: block;
     margin-bottom: 5px
@@ -1546,8 +1547,8 @@ footer .links-list ul li a:before {
     margin-bottom: 5px;
     padding: 5px;
     border: 1px solid #7b7878
-}
-
+} */
+/* 
 .lms_heading_1, .lms_heading_2, .lms_heading_3, .lms_heading_4, .lms_heading_5, .lms_heading_6 {
     text-align: center
 }
@@ -1595,7 +1596,7 @@ footer .links-list ul li a:before {
     background: -moz-radial-gradient(#7b7878 1%, #bbb 30%, #ccc 40%, #fff 70%);
     background: radial-gradient(#7b7878 1%, #bbb 30%, #ccc 40%, #fff 70%);
     margin-bottom: 32px
-}
+} */
 
 .hexagon {
     background-color: #fff;
@@ -1723,7 +1724,7 @@ footer .links-list ul li a:before {
     }
 }
 /*------------------- Language --------------------------*/
-.language {
+/* .language {
     float: left;
     margin-top: 5px;
 }
@@ -1764,7 +1765,7 @@ footer .links-list ul li a:before {
     border-radius: 2px;
     -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8);
     box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.8);
-}
+} */
 
 /*------------------- User Profile --------------------------*/
 #UserProfileImg
