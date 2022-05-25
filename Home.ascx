@@ -167,7 +167,7 @@
                             <dnn:COPYRIGHT ID="dnnCopyright" runat="server" CssClass="" />
                         </div>
 <hr>
-                    <div>
+                    <div class="disclaimer">
                         <p>The Williamson County Historical Commission (WCHC) provides this information "as is" without warranty of any kind. This data could include inaccuracies or typographical errors. The WCHC is not responsible for any errors or omissions. Accuracy is limited to the validity of available data. Presence of links should not be construed as an endorsement of the represented sites by the WCHC.</p>
                     </div>
                     </div>

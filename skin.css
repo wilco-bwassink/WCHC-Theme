@@ -1380,6 +1380,10 @@ footer .copyright, footer .terms-priv {
     padding-right: 15px;
     color:var(--wilcoBlue)
 }
+
+.disclaimer {
+    color:var(--wilcoBlue);
+}
 /* 
 footer .links-list ul li {
     float: left;
