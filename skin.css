@@ -1350,30 +1350,30 @@ figure.hover-effect:hover p {
 } */
 
 footer .footer-above h2, footer .footer-above p {
-    color: #fff
+    color: var(--wilcoBlue);
 }
 
 footer .footer-below, footer .terms-priv a:link, footer .terms-priv a:visited {
     color: #d2d2d2;
-    font-size: 12px
+    font-size: 12px;
 }
 
 footer .footer-col {
-    margin-bottom: 25px
+    margin-bottom: 25px;
 }
 
 footer .footer-below {
     background-color: hsla(220, 4%, 85%, 1);
-    padding: 15px 0
+    padding: 15px 0;
 }
 
-footer .copyright {
-    float: left
-}
+/* footer .copyright {
+    float: left;
+} */
 
-footer .terms-priv {
-    float: right
-}
+/* footer .terms-priv {
+    float: right;
+} */
 
 footer .copyright, footer .terms-priv {
     padding-left: 15px;
