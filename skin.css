@@ -941,6 +941,12 @@ a.cta-button:hover, button.cta-button:hover {
     margin-left: 10px
 }
 
+.heading_wrapper h3 {
+    color: var(--wilcoBlue);
+    font-size: 18px;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /* main {
     background: #fff;
     border: 1px solid #ececec;
