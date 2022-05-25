@@ -27,7 +27,7 @@
 
     <!--Header -->
     <header role="banner">
-        <div id="mainHeader-inner" class="container">
+        <div id="mainHeader-inner">
             <div class="clearfix"></div>
             <div class="navbar navbar-default" role="navigation">
                 <div id="navbar-top-wrapper">

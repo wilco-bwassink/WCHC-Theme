@@ -17,9 +17,9 @@
 .navbar-default{background-color:transparent;border:none}
 .navbar-collapse{border:none;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}
 
-#dnnMenu .topLevel>li>a{color:var(--wilcoWhite)}
-#dnnMenu .topLevel>li>a:focus,#dnnMenu .topLevel>li>a:hover{color:var(--hoverColor)}
-#dnnMenu .topLevel>li.active>a:focus,#dnnMenu .topLevel>li.active>a:hover{color:var(--hoverColor)}
+#dnnMenu .topLevel>li>a{color:var(--wilcoWhite);font-weight: 700;font-size: 1em;}
+#dnnMenu .topLevel>li>a:focus,#dnnMenu .topLevel>li>a:hover{color:var(--wilcoAccent)}
+#dnnMenu .topLevel>li.active>a:focus,#dnnMenu .topLevel>li.active>a:hover{color:var(--wilcoAccent)}
 #dnnMenu .topLevel>.open>a,#dnnMenu .topLevel>.open>a:hover,#dnnMenu .topLevel>.open>a:focus{background:none}
 /* #dnnMenu .topLevel>.active.open>a,#dnnMenu .topLevel>.active.open>a:hover,#dnnMenu .topLevel>.active.open>a:focus{background-color:#e7e7e7} */
 #dnnMenu .navbar-default .topLevel>li>a{-webkit-transition:all .3s ease 0s;-moz-transition:all .3s ease 0s;-o-transition:all .3s ease 0s;transition:all .3s ease 0s}
