@@ -754,8 +754,8 @@ a.cta-button:hover, button.cta-button:hover {
     padding-left: 15px
 }
 
-.internalPageLogo{
-    content:url(http://history.wilco.org/Portals/0/Images/WCHS-Logo_Color-ForWeb.png);
+.internalPageLogo #dnn_dnnLogo_hypLogo{
+    content:url(http://history.wilco.org/Portals/5/Images/WCHS-Logo_Color-ForWeb.png);
 }
 
 .navbar .brand {
@@ -918,26 +918,26 @@ a.cta-button:hover, button.cta-button:hover {
     -webkit-box-shadow: none;
     box-shadow: none;
     border-bottom: 1px dashed;
-    border-color: #ccc;
-    background-color: transparent;
+    /* border-color: #ccc; */
+    background-color: var(--wilcoBlue);
     padding: 5px 0;
     margin: 0;
-    display: block
+    display: block;
 }
 
 #breadcrumb a {
     margin-left: 10px;
     font-weight: 600;
     font-size: 11px;
-    color: #626262
+    color: var(--wilcoWhite);
 }
 
 #breadcrumb a:first-child {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     font-size: 11px!important;
     font-weight: 400;
-    color: #7b7d82;
-    margin: 0
+    color: var(--wilcoWhite);
+    margin: 0;
 }
 
 #breadcrumb img, #breadcrumb span {

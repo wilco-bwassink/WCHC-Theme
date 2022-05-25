@@ -49,11 +49,7 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
-        <main role="main">
-            <div class="row dnnpane">
-                <div id="HeaderPane" class="col-md-12 headerPane" runat="server"></div> 
-            </div>
+        <main role="main">            
             <div id="breadcrumb" class="col-md-12">
                 <dnn:BREADCRUMB ID="dnnBreadcrumb" runat="server" CssClass="breadcrumbLink" RootLevel="0" Separator="&lt;img src=&quot;/Portals/_default/Skins/Xcillion/Images/breadcrumb-arrow.png&quot; alt=&quot;breadcrumb separator&quot;&gt;" HideWithNoBreadCrumb="true" />
             </div>
@@ -84,8 +80,6 @@
             </div><!-- /.mainContent-inner -->
         </main>
         <!-- /.mainContent -->
-    </div>
-    <!-- /.container -->
 
     <!-- Footer -->
     <footer role="contentinfo">
