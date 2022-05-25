@@ -24,7 +24,7 @@
     <!--Header -->
     <header role="banner">
         <div id="mainHeader-inner" class="container">
-            <div class="navbar navbar-default" role="navigation">
+            <div class="navbar navbar-default navInternal" role="navigation">
                 <div id="navbar-top-wrapper">
                     <div id="logo">
                         <span class="brand">
@@ -53,7 +53,7 @@
             <div id="breadcrumb" class="col-md-12">
                 <dnn:BREADCRUMB ID="dnnBreadcrumb" runat="server" CssClass="breadcrumbLink" RootLevel="0" Separator="&lt;img src=&quot;/Portals/_default/Skins/Xcillion/Images/breadcrumb-arrow.png&quot; alt=&quot;breadcrumb separator&quot;&gt;" HideWithNoBreadCrumb="true" />
             </div>
-            <div id="mainContent-inner">
+            <div id="mainContent-inner" >
                 <div class="row dnnpane">
                     <div id="ContentPane" class="col-md-12 contentPane" runat="server"></div>
                 </div>
