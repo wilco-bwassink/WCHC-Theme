@@ -104,11 +104,11 @@ ul#myTab {
     padding: 15px 30px 15px 15px
 }
 
-body {
+/* body {
     background: #f0f0f0;
     color: #333;
     font-size: 13px
-}
+} */
 
 .CommandButton, .Head, .Normal, .NormalBold, .NormalDisabled, .NormalRed, .NormalTextBox, .SubHead, .SubSubHead, a:hover, a:link, a:visited, body, h1, h2, h3, h4, h5, h6, input, table, td, th {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif
@@ -130,18 +130,18 @@ embed, img, object {
     max-width: none!important
 }
 
-img {
+/* img {
     height: auto
 }
 
 em {
     font-style: italic
-}
+} */
 
-strong {
+/* strong {
     color: #333;
     font-weight: 700
-}
+} */
 
 small {
     font-size: 12px
@@ -155,9 +155,9 @@ a:hover {
     text-decoration: underline
 }
 
-p {
+/* p {
     margin: 0 0 20px
-}
+} */
 
 ol li>ol li {
     list-style-type: lower-latin
@@ -590,14 +590,14 @@ a.cta-button:hover, button.cta-button:hover {
     padding-right: 10px
 }
 
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
     #search-action {
         display: block
     }
     #login {
         padding-right: 21px
     }
-}
+} */
 
 @media only screen and (max-width: 500px){
     ul.searchSkinObjectPreview {
@@ -611,7 +611,7 @@ a.cta-button:hover, button.cta-button:hover {
         right:-30px;
     }
 }
-
+/* 
 #login .loginGroup, #login .loginGroup *, #login .registerGroup, #login .registerGroup * {
     display: block
 }
@@ -720,7 +720,7 @@ a.cta-button:hover, button.cta-button:hover {
     margin-right: 0;
     background-color: transparent;
     font-size: 10px
-}
+} */
 
 #topHeader {
     background: #383838;
@@ -939,7 +939,7 @@ a.cta-button:hover, button.cta-button:hover {
     margin-left: 10px
 }
 
-main {
+/* main {
     background: #fff;
     border: 1px solid #ececec;
     border-top: none;
@@ -957,9 +957,9 @@ main.no-bg {
 
 .dnnpane>[class*=col-md], .dnnpane>[class^=col-md] {
     padding: 0 15px
-}
+} */
 
-.image-wrapper {
+/* .image-wrapper {
     position: relative
 }
 
@@ -1339,7 +1339,7 @@ figure.hover-effect:hover p {
 
 .contact-form:-ms-input-placeholder {
     color: #e3e3e3
-}
+} */
 
 footer .footer-above {
     background-color: #292929;
