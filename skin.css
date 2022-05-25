@@ -1,4 +1,19 @@
-﻿@charset "UTF-8";
+﻿@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=ABeeZee);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+:root {
+    --wilcoBlue: hsla(210, 94%, 28%, 1);
+    --wilcoWhite: white;
+	--wilcoAccent: hsla(31, 100%, 50%, 1);
+    --black: hsla(360, 0%, 0%, 1);
+    --hoverColor: hsla(210, 94%, 18%, 1);
+    --fontSize: 13px;
+    --fontFamily: 'Open Sans';
+}
+
+@charset "UTF-8";
 em, small {
     letter-spacing: 0
 }
@@ -675,9 +690,11 @@ a.cta-button:hover, button.cta-button:hover {
     padding: 0
 }
 
-header {
-    background: #fff;
-    border-bottom: 1px solid #91AFCA
+ header {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url("/Portals/_default/Skins/WCHC-Theme/Images/wilcoCourthouse.jpg") center/cover;
+    height:50vh;
+    max-height:50vh;
 }
 
 #mainHeader-inner {
@@ -733,6 +750,107 @@ header {
         float: right
     }
 }
+
+#historicElements {
+    display: flex;
+    align-items: center;
+    width:50%;
+    gap:1em;
+    margin-left:25%;
+    margin-top:-5rem;
+    margin-bottom: 2rem;
+    }
+    
+    #historicElements a:hover {
+        background-color: var(--wilcoBlue);
+        text-decoration: none;
+    }
+    
+    .orangeButtons {
+    flex: 1;
+    background-color: var(--wilcoAccent);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--wilcoWhite);
+    flex-direction: column;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.30000);
+    }
+    
+    .heIcon{
+        max-width: 75%;
+        fill:var(--wilcoWhite);
+    }
+    
+    /* .heIcon:hover{
+        max-width: 75%;
+        background-color:var(--wilcoBlue);
+    } */
+    
+    .heText {
+        font-weight: bold;
+        color: var(--wilcoWhite);
+    }
+    
+    /* .heText:hover {
+        font-weight: bold;
+        color: var(--black);
+    } */
+    
+    .searchBox3 {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .searchBox3 h1 {
+        color: var(--wilcoWhite);
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5em;
+    }
+    
+    .searchInputContainer {
+        width:50vw;
+    }
+    
+    #searchContainer {
+        padding:10px;
+        background-color: hsla(360, 100%, 100%, .3);
+        display: flex;
+        justify-content: center;
+        border-radius: 5px;
+        width:60vw;
+        margin-left:20vw;
+    }
+    
+    .searchHome {
+        padding: 12px;
+        border-radius: 5px;
+        background-color: var(--wilcoBlue);
+        margin-left:1em;
+        transform: ease 0.3;
+        color: var(--wilcoWhite)!important;
+    }
+    
+    .searchHome:hover{
+        background-color: var(--hoverColor);
+        text-decoration: none;
+    }
+    
+    
+    .linkedButton {
+        background-color: var(--wilcoBlue);
+        padding:10px;
+        border-radius: 5px;
+        color: var(--wilcoWhite);
+        transition: 0.3;
+    }
+    
+    .linkedButton:hover {
+        background-color: var(--hoverColor);
+    }
 
 #breadcrumb {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
