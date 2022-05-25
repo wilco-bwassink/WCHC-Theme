@@ -58,7 +58,7 @@
             </div>
           </div>
     </header>
-              <div id="historicElements">
+        <div id="historicElements">
           <a href="/bridges" id="bridges" class="orangeButtons"><div class="heIcon"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve" width="100%" height="100%">
 		<path d="M495.302,108.533c-9.22,0-16.695,7.475-16.695,16.695v8.607c-21.429-14.398-45.853-26.576-72.347-36.221V75.348
 			c0-9.22-7.475-16.695-16.695-16.695c-9.22,0-16.695,7.475-16.695,16.695v11.742c-31.701-8.516-65.544-13.623-100.172-14.872
