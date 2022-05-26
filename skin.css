@@ -777,7 +777,7 @@ a.cta-button:hover, button.cta-button:hover {
 }
 
 .brandInner #dnn_dnnLogo_hypLogo{
-    content:url(https://history.wilco.org/Portals/5/Images/WCHS-Logo_Color-ForWeb.png);
+    content:url("/Portals/0/WCHS-Logo_Color.png");
 }
 
 @media only screen and (max-width:768px) {
