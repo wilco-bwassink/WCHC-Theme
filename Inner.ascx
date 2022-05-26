@@ -17,7 +17,7 @@
 <%@ Register TagPrefix="dnn" TagName="jQuery" Src="~/Admin/Skins/jQuery.ascx" %>
 
 <dnn:META ID="META1" runat="server" Name="viewport" Content="width=device-width,initial-scale=1" />
-<link rel="stylesheet" href="inner.css">
+<link href="<%= ResolveUrl("~/inner.css") %>" rel="stylesheet" />
 <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
 <![endif]-->
