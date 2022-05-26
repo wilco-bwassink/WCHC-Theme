@@ -1,0 +1,17 @@
+:root {
+    --wilcoBlue: hsla(210, 94%, 28%, 1);
+    --wilcoWhite: white;
+	--wilcoAccent: hsla(31, 100%, 50%, 1);
+    --black: hsla(360, 0%, 0%, 1);
+    --hoverColor: hsla(210, 94%, 18%, 1);
+    --fontSize: 13px;
+    --fontFamily: 'Open Sans';
+}
+
+#dnnmenu .topLevel>li>a {
+color: var(--wilcoBlue);
+}
+
+#dnn_dnnLogo_hypLogo{
+    content:url(http://history.wilco.org/Portals/5/Images/WCHS-Logo_Color-ForWeb.png);
+}

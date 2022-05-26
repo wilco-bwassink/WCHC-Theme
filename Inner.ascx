@@ -24,7 +24,7 @@
     <!--Header -->
     <header role="banner">
         <div id="mainHeader-inner" class="container">
-            <div class="navbar navbar-default navInternal" role="navigation">
+            <div class="navbar navbar-default" role="navigation">
                 <div id="navbar-top-wrapper">
                     <div id="logo">
                         <span class="brand">
