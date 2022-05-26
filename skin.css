@@ -765,6 +765,21 @@ a.cta-button:hover, button.cta-button:hover {
     max-width: 250px;
 }
 
+.navbarInner .brand {
+    float: left;
+    padding: 0!important;
+    max-width: 120px
+}
+
+.brandInner img {
+    max-height: 100%;
+    max-width: 250px;
+}
+
+.brandInner #dnn_dnnLogo_hypLogo{
+    content:url(https://wchcdev.wilco.org/Portals/0/Images/WCHS-Logo_Color-ForWeb.png);
+}
+
 @media only screen and (max-width:768px) {
     .main-navigation {
         height: auto;
