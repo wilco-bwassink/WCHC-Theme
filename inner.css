@@ -12,6 +12,6 @@
 color: var(--wilcoBlue);
 }
 
-#dnn_dnnLogo_hypLogo{
+.brandInner #dnn_dnnLogo_hypLogo{
     content:url(https://wchcdev.wilco.org/Portals/0/Images/WCHS-Logo_Color-ForWeb.png);
 }
