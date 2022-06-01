@@ -41,7 +41,7 @@
                         <span class="icon-bar"></span>
                     </button>
                 </div>
-                <div id="navbar" class="collapse navbar-collapse pull-right">
+                <div id="navbar" class="collapse navbar-collapse pull-right navInner">
                     <dnn:MENU ID="MENU" MenuStyle="Menus/MainMenu" runat="server" NodeSelector="*"></dnn:MENU>
                 </div>
             </div>
