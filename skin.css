@@ -734,7 +734,7 @@ a.cta-button:hover, button.cta-button:hover {
     padding: 0
 }
 
- header .home {
+.home {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
   url("/Portals/_default/Skins/WCHC-Theme/Images/wilcoCourthouse.jpg") center/cover;
     height:50vh;
@@ -815,13 +815,18 @@ a.cta-button:hover, button.cta-button:hover {
     }
 }
 
+#heCont {
+    display: flex;
+    justify-content: center;
+}
+
 #historicElements {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     width:50%;
     gap:1em;
-    margin-left:25%;
-    margin-top:-5rem;
+    /* margin-left:25%; */
+    margin-top:-3rem;
     margin-bottom: 2rem;
     }
     
