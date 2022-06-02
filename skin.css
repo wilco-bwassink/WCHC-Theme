@@ -752,6 +752,7 @@ a.cta-button:hover, button.cta-button:hover {
 
 #logo {
     float: left;
+    margin-left:15px;
 }
 
 .navbar .brand {
@@ -963,11 +964,11 @@ a.cta-button:hover, button.cta-button:hover {
     margin-left: 10px
 }
 
-.heading_wrapper h3 {
+/* .heading_wrapper h3 {
     color: var(--wilcoBlue);
     font-size: 1.5em;
     font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+} */
 
 /* main {
     background: #fff;
@@ -1810,4 +1811,67 @@ footer .links-list ul li a:before {
 }
 .UserProfileControls ul li {
     display: inline-block;
+}
+
+/********* Changes to the EasyDNNNews Article views************/
+
+.gridded--two {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+.gridded--three {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+.gridded--four {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+}
+
+.edn_article_gallery {
+	display: none;
+}
+
+.edn_fixedPrevNextArticleNavigation {
+	display: none;
+}
+
+.edn_socialPrintWrapper {
+	display: none;
+}
+.edn_numberOfVievs {
+	display: none;
+}
+
+/* .edn_mediaContainer {
+	display: none;
+} */
+
+.edn_article {
+	min-width:250px;
+	padding-right: 25px;
+	min-height: 250px;
+	}
+
+.edn_articleWrapper {
+	text-align: center;
+}
+
+.edn_mediaContainer a {
+	display: none;
+}
+
+.edn_metaDetails {
+	display: none;
+}
+
+article h3 {
+    color:#212121;/* 000000 */
+	font-family:'Open Sans';
+	font-size:1.2em;
+	line-height:1em;
+	font-weight:bold;
 }
