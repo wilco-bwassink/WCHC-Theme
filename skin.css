@@ -1850,11 +1850,23 @@ footer .links-list ul li a:before {
 	display: none;
 } */
 
-.edn_article {
+.edn_393_article_list_wrapper, .edn_404_article_list_wrapper, .edn_405_article_list_wrapper, .edn_406_article_list_wrapper, .edn_407_article_list_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap:25px 50px;
+}
+
+/* .edn_404_article_list_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+} */
+
+/* .edn_article {
 	min-width:250px;
 	padding-right: 25px;
 	min-height: 250px;
-	}
+	} */
 
 .edn_articleWrapper {
 	text-align: center;
